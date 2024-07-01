@@ -1,0 +1,30 @@
+
+
+input::placeholder{
+    color: #a6a6a6;
+}
+
+.show-hide {
+    right: 15px;
+    top: 50%;
+}
+
+.show-hide i {
+    font-size: 19px;
+    color: #3e0d0d;
+    cursor: pointer;
+    /* display: none; */
+    margin-right: 85px;
+    margin-top: 62px;
+    
+}
+
+.show-hide i.hide::before {
+    content:"\f070";
+}
+
+input:valid~.show-hide i {
+    display: block;
+}
+
+
